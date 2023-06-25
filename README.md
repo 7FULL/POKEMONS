@@ -34,21 +34,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 Una vez que hayas configurado y ejecutado el proyecto en tu servidor Tomcat, puedes acceder al juego utilizando tu navegador web. Asegúrate de estar en la misma red local que otros jugadores si deseas jugar en modo multijugador.
 
 - Modo de un solo jugador: En la página principal del juego, elige la opción para jugar contra la IA y sigue las instrucciones para comenzar la lucha Pokémon.
-- Modo multijugador: En la página principal del juego, selecciona la opción de modo multijugador y crea o únete a una de las salas disponibles. Luego, podrás desafiar a otros jugadores en tiempo real.
-
-### Personalización
-
-Puedes personalizar el límite de salas simultáneas en el modo multijugador modificando el código en el servidor. Abre el archivo de configuración `WebSocketServer.java` y busca la variable `MAX_ROOMS`. Ajusta su valor según tus necesidades. Recuerda recompilar y desplegar el proyecto después de realizar cualquier cambio.
-
-### Contribución
-
-Si deseas contribuir a este proyecto, sigue los pasos a continuación:
-
-1. Realiza un fork de este repositorio.
-2. Crea una rama con tu nueva función: `git checkout -b feature/nueva-funcion`.
-3. Realiza tus cambios y realiza commit: `git commit -m 'Agrega una nueva función'`.
-4. Envía tus cambios al repositorio remoto: `git push origin feature/nueva-funcion`.
-5. Envía una solicitud de extracción en GitHub.
+- Modo multijugador: En la página principal del juego, selecciona la opción de modo multijugador y únete a una de las salas disponibles. Luego, podrás desafiar a otros jugadores en tiempo real.
 
 
 
